@@ -70,6 +70,9 @@ NEXT_PUBLIC_TEACHER_ID=
 Add MySQL Database (I used PlanetScale)
 
 ```shell
+npx prisma migrate reset (development only)
+npx prisma db push  (development only)
+node script/seed.ts  (development only)
 npx prisma generate
 npx prisma db push
 

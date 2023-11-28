@@ -11,6 +11,10 @@ interface FileUploadProps {
 }
 
 export const FileUpload = ({ onChange, endpoint }: FileUploadProps) => {
+
+console.log('====================================');
+console.log('endpoint', endpoint);
+console.log('====================================');
   return (
     <UploadDropzone
       endpoint={endpoint}
