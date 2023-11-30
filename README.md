@@ -75,13 +75,19 @@ npx prisma db push  (development only)
 node script/seed.ts  (development only)
 npx prisma generate
 npx prisma db push
-
 ```
 
 ### Start the app
 
 ```shell
 npm run dev
+```
+
+### to enroll course
+
+```shell
+Go to stripe dashboard
+choose Webhooks menu
 ```
 
 ## Available commands
