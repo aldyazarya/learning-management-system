@@ -4,7 +4,7 @@ import { CourseCard } from "@/components/course-card";
 type CourseWithProgressWithCategory = Course & {
   category: Category | null;
   chapters: { id: string }[];
-  progress: Number | null;
+  progress: number | null;
 };
 
 interface CoursesListProps {

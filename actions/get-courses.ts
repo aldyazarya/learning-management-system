@@ -6,7 +6,7 @@ import { db } from "@/lib/db";
 type CourseWithProgressWithCategory = Course & {
     category: Category | null;
     chapters: { id: string }[];
-    progress: Number | null;
+    progress: number | null;
 };
 
 type GetCourses = {
