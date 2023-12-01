@@ -10,7 +10,7 @@ interface CourseNavbarProps {
       userProgress: UserProgress[] | null;
     })[];
   };
-  progressCount: Number;
+  progressCount: number;
 };
 
 export const CourseNavbar = ({
